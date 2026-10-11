@@ -23,7 +23,7 @@ Invalid parameters return `400`, too frequent requests return `429`. If one of t
 Example:
 
 ```bash
-curl 'http://127.0.0.1:8082/api/v1/searchmedia?text=cats&service=giphy&limit=5'
+curl 'http://127.0.0.1:8083/api/v1/searchmedia?text=cats&service=giphy&limit=5'
 ```
 
 ---
@@ -74,7 +74,7 @@ All settings are configured using environment variables prefixed with `SEARCHMED
 | `SEARCHMEDIA_SPECIFICATION_URL` | | OpenAPI/Swagger specification link in error responses |
 | `SEARCHMEDIA_DOCUMENTATION_URL` | | Documentation link in `429` error responses |
 | `SEARCHMEDIA_HOST` | `127.0.0.1` | Host address used by `compose.yaml` |
-| `SEARCHMEDIA_HOST_PORT` | `8082` | Host port used by `compose.yaml` |
+| `SEARCHMEDIA_HOST_PORT` | `8083` | Host port used by `compose.yaml` |
 
 > The application will start even without API keys. Services lacking valid keys will return an error status and be marked as unavailable in the response envelope.
 
