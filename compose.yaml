@@ -6,4 +6,3 @@ services:
         required: false
     ports:
       - "${SEARCHMEDIA_HOST:-127.0.0.1}:${SEARCHMEDIA_HOST_PORT:-8083}:80"
-    restart: unless-stopped
