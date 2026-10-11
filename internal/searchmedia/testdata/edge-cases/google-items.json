@@ -1,0 +1,26 @@
+[
+    {
+        "url": "https://example.com/cat.jpg",
+        "fallback_url": "https://example.com/cat-thumb.jpg",
+        "mime_type": "image/jpeg",
+        "title": "Cute Cat",
+        "desc": "A cute cat photo",
+        "tags": [],
+        "author": "example.com",
+        "source": "googleapis.com",
+        "html_tag_name": "img",
+        "type": "image"
+    },
+    {
+        "url": "https://example.com/cat2.png",
+        "fallback_url": null,
+        "mime_type": "",
+        "title": "",
+        "desc": "",
+        "tags": [],
+        "author": "",
+        "source": "googleapis.com",
+        "html_tag_name": "img",
+        "type": "image"
+    }
+]

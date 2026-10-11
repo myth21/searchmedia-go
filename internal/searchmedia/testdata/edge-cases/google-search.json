@@ -1,0 +1,38 @@
+{
+    "kind": "customsearch#search",
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Cute Cat",
+            "htmlTitle": "Cute <b>Cat</b>",
+            "link": "https://example.com/cat.jpg",
+            "displayLink": "example.com",
+            "snippet": "A cute cat photo",
+            "htmlSnippet": "A cute <b>cat</b> photo",
+            "mime": "image/jpeg",
+            "fileFormat": "jpg",
+            "image": {
+                "contextLink": "https://example.com/page",
+                "height": 800,
+                "width": 600,
+                "byteSize": 204800,
+                "thumbnailHeight": 150,
+                "thumbnailWidth": 200,
+                "thumbnailLink": "https://example.com/cat-thumb.jpg"
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": null,
+            "link": "https://example.com/cat2.png",
+            "displayLink": null,
+            "snippet": null,
+            "mime": null,
+            "image": {}
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "No link"
+        }
+    ]
+}

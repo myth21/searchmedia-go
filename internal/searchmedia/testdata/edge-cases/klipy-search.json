@@ -1,0 +1,46 @@
+{
+    "results": [
+        {
+            "id": "1",
+            "title": "Cat jumps",
+            "media_formats": {
+                "gif": {
+                    "url": "https://klipy.com/media/cat-jumps.gif",
+                    "duration": 3000,
+                    "preview": "https://klipy.com/media/cat-jumps-preview.gif",
+                    "dims": [480, 270],
+                    "size": 123456
+                }
+            },
+            "created": 1690000000,
+            "content_description": "A cat jumping",
+            "itemurl": "https://klipy.com/gifs/cat-jumps",
+            "url": "https://klipy.com/gifs/cat-jumps",
+            "tags": ["cat", "jump"],
+            "hasaudio": false,
+            "flags": [],
+            "content_description_source": "user",
+            "user": {
+                "profile_url": "https://klipy.com/users/catlover"
+            }
+        },
+        {
+            "id": "2",
+            "title": null,
+            "media_formats": {
+                "gif": {
+                    "url": "https://klipy.com/media/cat-sleep.gif"
+                }
+            },
+            "content_description": null,
+            "tags": [],
+            "user": null
+        },
+        {
+            "id": "3",
+            "title": "No gif here",
+            "media_formats": {}
+        }
+    ],
+    "next": "abc123"
+}
